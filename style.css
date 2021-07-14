@@ -1,5 +1,107 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Encode Sans SC', sans-serif;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8%;
+    background-color: dodgerblue;
+    color: ghostwhite;
+}
+
+#magnus{
+    color: khaki;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-bar li{
+    margin-right: 20%;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+    height: 300px;
+    text-align: center;
+    color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: indigo;
+    color: yellow;
+    padding: 1% 5%;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#email{
+    padding: 3%;
+}
+
+#subbutton{
+    padding: 3%;
+    background-color: coral;
+    border: 1px solid coral;
+    color: bisque;
+}
+
+img{
+    width: 80px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 4%;
+}
+
+.services li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    background-color: dodgerblue;
+    padding: 2%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+
+
+
+
 

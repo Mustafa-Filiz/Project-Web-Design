@@ -7,17 +7,20 @@
     <title>Magnus Web Design</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-right">
-            <h1>Magnus Web Design</h1>
+            <h1><span id="magnus">Magnus</span> Web Design</h1>
         </div>
         <div class="header-left">
-            <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>SERVICES</li>
+            <ul class="nav-bar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
             </ul>
         </div>
     </header>
@@ -32,16 +35,16 @@
         <div class="subscribe">
             <p>Subscribe to our Newsletter</p>
             <form action="#" method="get">
-                <input type="email" name="email" id="email">
-                <input type="submit" value="Subscribe">
+                <input type="email" name="email" id="email" placeholder="Enter e-mail">
+                <input type="submit" value="Subscribe" id="subbutton">
             </form>
         </div>
 
-        <div class="services">
-            <ul class="serv">
-                <li> <img src="./img/html-logo.png" alt="html-logo"> <p>HTML5 Markup</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolorum.</p> </li>
-                <li> <img src="./img/css-logo.png" alt="css-logo"> <p>CSS3 Styling</p> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, voluptates!</p> </li>
-                <li> <img src="./img/logo_brush.png" alt="logo-brush"><p>Graphic Design</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem?</p> </li>
+        <div>
+            <ul class="services">
+                <li> <img src="./img/logo_html.png" alt="html-logo"> <p><b>HTML5 Markup</b></p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolorum.</p> </li>
+                <li> <img src="./img/logo_css.png" alt="css-logo"> <p><b>CSS3 Styling</b></p> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, voluptates!</p> </li>
+                <li> <img src="./img/logo_brush.png" alt="logo-brush"><p><b>Graphic Design</b></p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem?</p> </li>
             </ul>
         </div>
     </main>
